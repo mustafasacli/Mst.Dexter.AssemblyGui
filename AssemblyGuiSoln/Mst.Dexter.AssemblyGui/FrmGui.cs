@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace Mst.Dexter.AssemblyGui
 {
-    public partial class Form1 : Form
+    public partial class FrmGui : Form
     {
         //string nodeFormat = "<add name=\"mysql{0}\" typename=\"MySql.Data.MySqlClient.MySqlConnection\" namespace=\"MySql.Data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d\" dialect=\"MySql\"/>";
         private string nodeFormat = "<add name=\"{0}\" typename=\"{1}\" namespace=\"{2}\" dialect=\"{3}\"/>";
 
-        public Form1()
+        public FrmGui()
         {
             InitializeComponent();
             //CheckForIllegalCrossThreadCalls = false;

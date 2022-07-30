@@ -1,6 +1,6 @@
 ﻿namespace Mst.Dexter.AssemblyGui
 {
-    partial class Form1
+    partial class FrmGui
     {
         /// <summary>
         /// Required designer variable.
